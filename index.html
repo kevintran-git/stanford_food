@@ -11,99 +11,121 @@
             --secondary-color: #5F574F; /* Stanford Stone */
             --accent-color: #B39D4F;  /* Stanford Sandstone */
             --text-color: #2E2D29; /* Stanford Black */
-            --light-gray: #f8f8f8; /* Slightly off-white */
-            --dark-gray: #5F574F; /* Use Stone */
-            --border-color: #ddd;
+            --light-gray: #f8f9fa; /* Lighter, cleaner gray */
+            --very-light-gray: #f1f3f5;
+            --dark-gray: #495057; /* Slightly darker gray for text */
+            --border-color: #dee2e6; /* Softer border color */
             --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-            --link-color: #006CB8; /* Stanford Blue Link color (Optional) */
+            --link-color: #006CB8; /* Stanford Blue Link color */
 
             /* Dining Hall Colors */
             --wilbur-color: #8C1515;
             --stern-color: #FFA726;
             --casper-color: #00685B;
-            --branner-color: #B39D4F; /* Sandstone for yellow */
-            --arrillaga-color: #B39D4F; /* Sandstone for yellow */
-            --ricker-color: #6a1b9a; /* Purple */
-            --flomo-color: #008080; /* Teal */
-            --lakeside-color: #006CB8; /* Blue */
-            --evgr-color: #5F574F; /* Stone as default */
+            --branner-color: #B39D4F;
+            --arrillaga-color: #B39D4F;
+            --ricker-color: #6a1b9a;
+            --flomo-color: #008080;
+            --lakeside-color: #006CB8;
+            --evgr-color: #5F574F;
 
             --wilbur-bg: #fdecea;
             --stern-bg: #fff3e0;
             --casper-bg: #e0f2f1;
-            --branner-bg: #fffde7; /* Light Yellow */
-            --arrillaga-bg: #fffde7; /* Light Yellow */
-            --ricker-bg: #f3e5f5; /* Light Purple */
-            --flomo-bg: #e0f7fa; /* Light Teal */
-            --lakeside-bg: #e3f2fd; /* Light Blue */
-            --evgr-bg: #f5f5f5; /* Light Gray */
+            --branner-bg: #fffde7;
+            --arrillaga-bg: #fffde7;
+            --ricker-bg: #f3e5f5;
+            --flomo-bg: #e0f7fa;
+            --lakeside-bg: #e3f2fd;
+            --evgr-bg: #f5f5f5;
+
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.03);
+            --shadow-md: 0 4px 10px rgba(0,0,0,0.05);
+            --shadow-lg: 0 10px 25px rgba(0,0,0,0.07);
         }
 
         body {
             font-family: var(--font-family);
             margin: 0;
             padding: 0;
-            background-color: #fff;
+            background-color: var(--light-gray); /* Page background */
             color: var(--text-color);
-            line-height: 1.6;
+            line-height: 1.65; /* Slightly increased line height */
         }
 
         .container {
-            max-width: 1100px; /* Wider for potential columns */
-            margin: 20px auto;
-            padding: 15px 25px;
+            max-width: 1100px;
+            margin: 40px auto; /* Increased top/bottom margin */
+            padding: 30px 40px; /* Increased padding */
             background-color: #fff;
+            border-radius: 12px; /* Softer, larger radius */
+            box-shadow: var(--shadow-lg);
         }
 
         header {
-            border-bottom: 3px solid var(--primary-color);
-            margin-bottom: 25px;
-            padding-bottom: 15px;
+            border-bottom: 4px solid var(--primary-color);
+            margin-bottom: 35px; /* Increased spacing */
+            padding-bottom: 20px;
             text-align: center;
         }
 
         h1 {
             color: var(--primary-color);
             margin: 0;
-            font-weight: 600;
-            font-size: 2em;
+            font-weight: 700; /* Bolder */
+            font-size: 2.4em; /* Larger */
+            letter-spacing: 0.5px;
         }
-        h2 { /* Date headings */
+        h2 { /* Date headings - Not used in current structure but good to have */
            color: var(--dark-gray);
-           font-size: 1.5em;
-           margin-top: 2em;
-           margin-bottom: 1em;
+           font-size: 1.8em;
+           font-weight: 600;
+           margin-top: 2.5em;
+           margin-bottom: 1.2em;
            border-bottom: 1px solid var(--border-color);
-           padding-bottom: 0.4em;
+           padding-bottom: 0.5em;
         }
         h3 { /* Section titles (Everywhere, Also, Exclusive) */
             color: var(--primary-color);
-            font-size: 1.2em;
-            font-weight: 500;
-            margin-top: 1em;
-            margin-bottom: 0.8em;
-        }
-        h4 { /* Hall names in exclusive section */
-            color: var(--dark-gray);
-            font-size: 1em;
+            font-size: 1.4em; /* Slightly larger */
             font-weight: 600;
-            margin-top: 0;
-            margin-bottom: 10px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 5px;
+            margin-top: 1em; /* Default, overridden in .menu-section */
+            margin-bottom: 0.8em; /* Default, overridden in .menu-section */
+            position: relative;
+            padding-bottom: 10px; /* Space for the accent line */
+        }
+        /* Accent line for section titles */
+        .menu-section h3::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--primary-color);
+            border-radius: 2px;
+        }
+
+        h4 { /* General h4, hall names in exclusive section are more specific */
+            color: var(--dark-gray);
+            font-size: 1.1em;
+            font-weight: 600;
+            margin-top: 1.5em;
+            margin-bottom: 0.75em;
         }
 
         /* --- Controls --- */
         .controls {
             display: flex;
             flex-wrap: wrap;
-            gap: 20px; /* Increased gap */
-            margin-bottom: 30px;
-            align-items: flex-end; /* Align items bottom for better label alignment */
-            padding: 20px;
-            background-color: var(--light-gray);
-            border-radius: 6px;
+            gap: 25px; /* Slightly more gap */
+            margin-bottom: 35px; /* Increased spacing */
+            align-items: flex-end;
+            padding: 25px;
+            background-color: #fff; /* Keep white for elevation */
+            border-radius: 8px;
             border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
         }
 
         .control-group {
@@ -113,74 +135,74 @@
 
         .controls label {
             font-weight: 500;
-            font-size: 0.9em;
-            margin-bottom: 6px;
+            font-size: 0.95em; /* Slightly larger */
+            margin-bottom: 8px;
             color: var(--dark-gray);
         }
 
         .controls select,
         .controls button {
-            padding: 9px 14px;
+            padding: 10px 15px; /* More modern padding */
             border: 1px solid var(--border-color);
-            border-radius: 4px;
+            border-radius: 6px; /* Consistent radius */
             font-size: 1em;
             background-color: #fff;
             cursor: pointer;
-            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+            transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
         }
         .controls select:focus,
         .controls button:focus {
             outline: none;
             border-color: var(--primary-color);
-            box-shadow: 0 0 0 2px rgba(140, 21, 21, 0.2); /* Focus ring matching Cardinal Red */
+            box-shadow: 0 0 0 3px rgba(140, 21, 21, 0.25); /* Slightly stronger focus ring */
         }
         .controls select {
-             min-width: 220px;
+             min-width: 240px; /* Slightly wider */
         }
-
 
         .meal-selector button {
             margin-right: 10px;
-            background-color: #fff;
+            background-color: transparent;
             color: var(--primary-color);
             border: 1px solid var(--primary-color);
+        }
+        .meal-selector button:hover:not(.active) {
+            background-color: rgba(140, 21, 21, 0.05); /* Very light red */
+            border-color: var(--primary-color);
         }
         .meal-selector button.active {
             background-color: var(--primary-color);
             color: white;
             font-weight: bold;
-            border-color: var(--primary-color); /* Ensure border matches */
+            border-color: var(--primary-color);
         }
-         .meal-selector button:hover:not(.active) {
-            background-color: #fdeded; /* Lighter red */
-         }
-
 
         /* --- Menu Display --- */
         #menu-display {
-            margin-top: 20px;
+            margin-top: 25px;
         }
         .participation-info {
             text-align: center;
-            font-size: 0.9em;
+            font-size: 0.95em;
             color: var(--secondary-color);
-            margin-top: -10px; /* Pull up slightly */
-            margin-bottom: 25px;
+            margin-top: -15px;
+            margin-bottom: 30px;
             font-style: italic;
         }
 
         .menu-section {
-            margin-bottom: 30px; /* Increased spacing between sections */
-            padding: 20px;
+            margin-bottom: 35px;
+            padding: 25px 30px; /* More padding */
             border: 1px solid var(--border-color);
-            border-radius: 6px;
+            border-radius: 8px;
             background-color: #fff;
+            box-shadow: var(--shadow-md);
         }
-        .menu-section h3{
-            margin-top: 0; /* Reset margin for section titles */
-            border-bottom: 1px dashed var(--border-color);
-            padding-bottom: 10px;
-            margin-bottom: 18px;
+        .menu-section h3 {
+            margin-top: 0;
+            border-bottom: none; /* Removed default border, using ::after now */
+            padding-bottom: 12px; /* Ensure space for accent line */
+            margin-bottom: 25px; /* More space after title */
         }
 
         .menu-list {
@@ -190,13 +212,13 @@
         }
 
         .menu-list li {
-            padding: 10px 0;
-            border-bottom: 1px solid #eee;
+            padding: 14px 0; /* More vertical padding */
+            border-bottom: 1px solid var(--very-light-gray); /* Lighter border */
             display: flex;
-            justify-content: space-between; /* Push flags to the right */
-            align-items: flex-start; /* Align items top */
-            flex-wrap: wrap; /* Allow wrapping if needed */
-            gap: 8px; /* Space between name and flags */
+            justify-content: space-between;
+            align-items: center; /* Center align items and flags */
+            flex-wrap: wrap;
+            gap: 10px;
         }
         .menu-list li:last-child {
             border-bottom: none;
@@ -204,114 +226,170 @@
 
         .item-name {
             font-weight: 500;
-            flex-grow: 1; /* Take up available space */
-             margin-right: 10px; /* Space before flags */
+            flex-grow: 1;
+            margin-right: 15px;
+            font-size: 1.05em; /* Slightly larger item names */
         }
 
         .item-flags {
-             white-space: nowrap; /* Keep flags together */
+             white-space: nowrap;
              display: flex;
-             gap: 6px; /* Space between flags */
-             align-self: center; /* Vertically center flags with name if wrapped */
+             gap: 8px;
         }
 
         .dietary-flag {
-            font-size: 0.75em;
+            font-size: 0.8em; /* Slightly larger */
             font-weight: 600;
-            border-radius: 4px;
-            padding: 2px 6px;
+            border-radius: 5px; /* Softer radius */
+            padding: 4px 8px; /* More padding */
             display: inline-block;
             text-transform: uppercase;
-            border: 1px solid transparent; /* Base border */
+            border: 1px solid transparent;
+            line-height: 1; /* Ensure consistent height */
         }
 
-        /* Specific flag colors - Adjusted for Stanford Theme */
-        .dietary-flag.gf { border-color: #FFA726; background-color: #FFF3E0; color: #E65100; } /* Keep Orange for GF */
-        .dietary-flag.v  { border-color: #00685B; background-color: #e0f2f1; color: #004D40; } /* Palo Alto Green */
-        .dietary-flag.vg { border-color: #00584d; background-color: #c8e6c9; color: #004D40; font-weight: 700;} /* Darker Palo Alto Green */
-        .dietary-flag.h  { border-color: #006CB8; background-color: #e3f2fd; color: #0d47a1; } /* Stanford Blue for Halal */
+        .dietary-flag.gf { border-color: #FFA726; background-color: #FFF3E0; color: #E65100; }
+        .dietary-flag.v  { border-color: #00685B; background-color: #e0f2f1; color: #004D40; }
+        .dietary-flag.vg { border-color: #00584d; background-color: #c8e6c9; color: #004D40; font-weight: 700;}
+        .dietary-flag.h  { border-color: #006CB8; background-color: #e3f2fd; color: #0d47a1; }
 
         .served-at-halls {
-            font-size: 0.85em;
-            color: var(--secondary-color); /* Base color for "At:" */
-            margin-top: 6px; /* Increased space */
+            font-size: 0.9em; /* Slightly larger */
+            color: var(--secondary-color);
+            margin-top: 8px;
             width: 100%;
-            padding-left: 15px; /* Indent slightly */
-            flex-basis: 100%; /* Ensure it goes to the next line */
-            line-height: 1.8; /* Improve spacing if halls wrap */
+            padding-left: 0; /* Remove indent, let wrapping handle */
+            flex-basis: 100%;
+            line-height: 1.8;
+        }
+        .served-at-halls strong { /* For the "At:" text */
+            color: var(--dark-gray);
+            font-weight: 500;
         }
 
-        /* Styling for individual hall mentions */
         .hall-mention {
-             display: inline-block; /* Ensures padding/border-radius work well */
-             padding: 2px 5px;
-             border-radius: 3px;
-             margin-right: 5px; /* Spacing between halls */
-             margin-bottom: 3px; /* Spacing if wrapped */
-             font-size: 0.9em; /* Slightly smaller */
-             white-space: nowrap; /* Keep name together */
-             border: 1px solid rgba(0,0,0,0.08); /* Subtle border */
+             padding: 3px 7px; /* More padding */
+             border-radius: 4px;
+             margin-right: 6px;
+             margin-bottom: 4px;
+             font-size: 0.9em;
+             white-space: nowrap;
+             border: 1px solid rgba(0,0,0,0.08);
+             display: inline-block;
+             transition: transform 0.15s ease;
+        }
+        .hall-mention:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.07);
         }
 
 
         /* Multi-column layout for Exclusives */
         .exclusive-items-container {
             display: grid;
-            /* Create columns that are at least 280px wide, taking up equal space */
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px; /* Space between columns */
-            margin-top: 15px; /* Space below the 'Exclusive Items' title */
+            gap: 25px;
+            margin-top: 20px;
         }
 
         .exclusive-hall-block {
             border: 1px solid var(--border-color);
-            border-radius: 5px;
-            padding: 15px;
+            border-radius: 8px;
+            padding: 20px;
             background-color: #fff;
-            /* Add subtle top border using specific color via JS */
-            border-top-width: 3px;
+            border-top-width: 4px; /* Thicker accent border */
             border-top-style: solid;
-            border-top-color: var(--secondary-color); /* Default fallback */
-            box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* Subtle shadow */
+            border-top-color: var(--secondary-color); /* Fallback */
+            box-shadow: var(--shadow-sm);
+            transition: box-shadow 0.2s ease, transform 0.2s ease;
+        }
+        .exclusive-hall-block:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
         }
 
+        .exclusive-hall-block h4 { /* Hall names specifically in this block */
+            font-size: 1.15em; /* More prominent */
+            font-weight: 700; /* JS also sets this */
+            margin-top: 0;
+            margin-bottom: 15px; /* More space after title */
+            /* color is set by JS using hallColors.text */
+            border-bottom: none; /* Clean look */
+            padding-bottom: 0;
+        }
 
         .exclusive-hall-block ul {
-            padding-left: 0; /* Remove default padding */
-            list-style-position: inside; /* Keep bullets inside */
+            padding-left: 0;
+            list-style-position: inside;
             margin-bottom: 0;
         }
         .exclusive-hall-block li {
-            padding: 6px 0; /* Slightly less padding than main lists */
-            border-bottom-color: #f5f5f5; /* Lighter border inside block */
-            display: flex; /* Override default flex for simpler list */
-            flex-direction: column; /* Stack name/flags vertically */
+            padding: 8px 0;
+            border-bottom: 1px solid var(--very-light-gray);
+            display: flex;
+            flex-direction: column;
             align-items: flex-start;
         }
+        .exclusive-hall-block li:last-child {
+            border-bottom: none;
+        }
          .exclusive-hall-block .item-name {
-             margin-right: 0; /* No need for margin */
+             margin-right: 0;
+             font-size: 1em; /* Slightly smaller for balance in block */
          }
          .exclusive-hall-block .item-flags {
-             margin-top: 3px; /* Space below name */
-              align-self: flex-start; /* Align flags left */
+             margin-top: 5px;
+             align-self: flex-start;
          }
 
         /* --- Loading/Error States --- */
         #loading-state, #error-state, #no-menu-state {
             text-align: center;
-            padding: 40px 20px;
-            font-size: 1.1em;
+            padding: 50px 25px;
+            font-size: 1.15em;
             color: var(--secondary-color);
             border: 1px dashed var(--border-color);
-            border-radius: 6px;
+            border-radius: 8px;
             background-color: var(--light-gray);
-            margin-top: 20px;
+            margin-top: 25px;
         }
-        #loading-state { display: block; } /* Initially visible */
-        #error-state { display: none; color: var(--primary-color); font-weight: 500;}
-        #no-menu-state { display: none; }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        #loading-state::before {
+            content: "";
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            margin-bottom: -8px; /* Vertical align */
+            margin-right: 12px;
+            border: 4px solid rgba(140, 21, 21, 0.2); /* Light Cardinal Red */
+            border-top-color: var(--primary-color); /* Cardinal Red */
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        #error-state {
+            color: var(--primary-color);
+            font-weight: 500;
+            background-color: #fdecea; /* Light red background for errors */
+            border-color: var(--primary-color);
+        }
+        #no-menu-state {
+            background-color: #e3f2fd; /* Light blue background for info */
+            border-color: var(--lakeside-color);
+            color: var(--lakeside-color);
+        }
 
-
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 25px 0;
+            border-top: 1px solid var(--border-color);
+            color: var(--secondary-color);
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
@@ -334,24 +412,15 @@
         </div>
 
         <div id="loading-state">Loading menu data...</div>
-        <div id="error-state"></div>
-        <div id="no-menu-state">Select a date and meal to view the menu.</div>
+        <div id="error-state"></div> <!-- Will be populated by JS -->
+        <div id="no-menu-state">Select a date and meal to view the menu.</div> <!-- Default message -->
         <div id="menu-display">
             <!-- Menu content will be dynamically inserted here -->
         </div>
 
         <footer>
             <p>Made by Kevin Tran with ❤️</p>
-            <style>
-            footer {
-                text-align: center;
-                margin-top: 40px;
-                padding: 15px 0;
-                border-top: 1px solid var(--border-color);
-                color: var(--secondary-color);
-                font-size: 0.9em;
-            }
-            </style>
+            <!-- The nested style tag for footer was removed as styles are now in the main block -->
         </footer>
     </div>
 
@@ -361,39 +430,37 @@
         const menuDisplay = document.getElementById('menu-display');
         const loadingState = document.getElementById('loading-state');
         const errorState = document.getElementById('error-state');
-        const noMenuState = document.getElementById('no-menu-state'); // Message area
+        const noMenuState = document.getElementById('no-menu-state');
 
         let menuData = {};
         let availableMeals = new Set();
         let selectedDate = '';
         let selectedMeal = '';
-        const JSON_FILE_PATH = './dining_hall_simplified_menu.json'; // Assumes file is in the same directory
+        const JSON_FILE_PATH = './dining_hall_simplified_menu.json';
 
-        // --- Dining Hall Color Mappings ---
         const hallColors = {
             "Wilbur Dining": { bg: 'var(--wilbur-bg)', text: 'var(--wilbur-color)' },
             "Stern Dining": { bg: 'var(--stern-bg)', text: 'var(--stern-color)' },
             "Gerhard Casper Dining": { bg: 'var(--casper-bg)', text: 'var(--casper-color)' },
-            "Branner Dining": { bg: 'var(--branner-bg)', text: 'var(--secondary-color)' }, // Using secondary color text for yellow bg
-            "Arrillaga Family Dining Commons": { bg: 'var(--arrillaga-bg)', text: 'var(--secondary-color)' }, // Using secondary color text for yellow bg
+            "Branner Dining": { bg: 'var(--branner-bg)', text: 'var(--secondary-color)' },
+            "Arrillaga Family Dining Commons": { bg: 'var(--arrillaga-bg)', text: 'var(--secondary-color)' },
             "Ricker Dining": { bg: 'var(--ricker-bg)', text: 'var(--ricker-color)' },
             "Florence Moore Dining": { bg: 'var(--flomo-bg)', text: 'var(--flomo-color)' },
             "Lakeside Dining": { bg: 'var(--lakeside-bg)', text: 'var(--lakeside-color)' },
             "EVGR Dining": { bg: 'var(--evgr-bg)', text: 'var(--evgr-color)' }
         };
-        const hallBorderColors = { // For the h4 border-top in exclusive section
+        const hallBorderColors = {
             "Wilbur Dining": 'var(--wilbur-color)',
             "Stern Dining": 'var(--stern-color)',
             "Gerhard Casper Dining": 'var(--casper-color)',
-            "Branner Dining": 'var(--branner-color)', // Use Sandstone var
-            "Arrillaga Family Dining Commons": 'var(--arrillaga-color)', // Use Sandstone var
+            "Branner Dining": 'var(--branner-color)',
+            "Arrillaga Family Dining Commons": 'var(--arrillaga-color)',
             "Ricker Dining": 'var(--ricker-color)',
             "Florence Moore Dining": 'var(--flomo-color)',
             "Lakeside Dining": 'var(--lakeside-color)',
             "EVGR Dining": 'var(--evgr-color)'
         };
 
-        // --- Initialization ---
         async function loadData() {
             showLoading();
             try {
@@ -403,21 +470,19 @@
                 }
                 menuData = await response.json();
                 if (Object.keys(menuData).length === 0) {
-                     showError("Menu data file is empty or invalid.");
+                     showError("Menu data file is empty or invalid. Please check the JSON file content.");
                      return;
                 }
                 populateDateSelector();
-                // Set initial selection (e.g., first date)
                 if (dateSelect.options.length > 0) {
-                    dateSelect.value = dateSelect.options[0].value; // Select the first date by default
-                    handleDateChange(); // Trigger initial population and display
+                    dateSelect.value = dateSelect.options[0].value;
+                    handleDateChange();
                 } else {
-                     showError("No dates found in the menu data.");
+                     showError("No dates found in the menu data. Ensure the JSON file is correctly structured.");
                 }
-
             } catch (error) {
                 console.error("Error loading or parsing menu data:", error);
-                showError(`Failed to load menu data. Make sure '${JSON_FILE_PATH}' exists in the same folder and is valid JSON. Error: ${error.message}`);
+                showError(`Failed to load menu data. Make sure '${JSON_FILE_PATH}' exists and is valid. Error: ${error.message}`);
             }
         }
 
@@ -436,7 +501,7 @@
             errorState.textContent = message;
             errorState.style.display = 'block';
             noMenuState.style.display = 'none';
-            menuDisplay.innerHTML = ''; // Clear display area on error
+            menuDisplay.innerHTML = '';
         }
 
         function showNoMenuMessage(message) {
@@ -447,38 +512,32 @@
             menuDisplay.innerHTML = '';
         }
 
-        // --- Populating Controls ---
         function populateDateSelector() {
-            const dates = Object.keys(menuData).sort(); // Sort dates chronologically if possible
-            dateSelect.innerHTML = dates.map(date => `<option value="${date}">${formatDateDisplay(date)}</option>`).join(''); // Use formatted date for display
+            const dates = Object.keys(menuData).sort((a, b) => new Date(a.split(' - ')[0]) - new Date(b.split(' - ')[0])); // Sort by date part
+            dateSelect.innerHTML = dates.map(date => `<option value="${date}">${formatDateDisplay(date)}</option>`).join('');
             dateSelect.addEventListener('change', handleDateChange);
         }
 
         function populateMealSelector() {
             availableMeals.clear();
-            mealSelector.innerHTML = ''; // Clear previous buttons
-            selectedMeal = ''; // Reset selected meal
+            mealSelector.innerHTML = '';
+            selectedMeal = '';
 
             if (menuData[selectedDate]) {
                 const mealsForDay = Object.keys(menuData[selectedDate]);
-                // Define a preferred order
-                const mealOrder = ["Breakfast", "Lunch", "Dinner", "Brunch"];
+                const mealOrder = ["Breakfast", "Brunch", "Lunch", "Dinner"]; // Brunch between Breakfast and Lunch
                 const sortedMeals = mealsForDay.sort((a, b) => {
                     const indexA = mealOrder.indexOf(a);
                     const indexB = mealOrder.indexOf(b);
-                    // Handle meals not in preferred order (put them at the end)
-                    if (indexA === -1 && indexB === -1) return a.localeCompare(b); // Alphabetical if both unknown
+                    if (indexA === -1 && indexB === -1) return a.localeCompare(b);
                     if (indexA === -1) return 1;
                     if (indexB === -1) return -1;
                     return indexA - indexB;
                 });
 
-
                 sortedMeals.forEach((meal) => {
-                    // Basic check if the meal has any actual content to display
                     const mealData = menuData[selectedDate][meal];
                     const hasContent = mealData && (mealData.available_everywhere?.length || mealData.partially_shared?.length || Object.keys(mealData.exclusive_by_hall || {}).length > 0);
-
                     if (hasContent) {
                          availableMeals.add(meal);
                          const button = document.createElement('button');
@@ -486,8 +545,6 @@
                          button.dataset.meal = meal;
                          button.addEventListener('click', handleMealChange);
                          mealSelector.appendChild(button);
-
-                         // Select the first available meal by default
                          if (!selectedMeal) {
                             selectedMeal = meal;
                             button.classList.add('active');
@@ -497,13 +554,11 @@
             }
         }
 
-
-        // --- Event Handlers ---
         function handleDateChange() {
             selectedDate = dateSelect.value;
-            populateMealSelector(); // Repopulate meals for the new date
-             if (selectedMeal) { // If a meal was automatically selected
-                displayMenu(); // Display the default (first) meal for the new date
+            populateMealSelector();
+             if (availableMeals.size > 0 && selectedMeal) {
+                displayMenu();
              } else {
                 showNoMenuMessage(`No meals with available menus found for ${formatDateDisplay(selectedDate)}.`);
              }
@@ -511,22 +566,19 @@
 
         function handleMealChange(event) {
             const newMeal = event.target.dataset.meal;
-            if (newMeal === selectedMeal) return; // No change if clicking the active button
+            if (newMeal === selectedMeal && menuDisplay.innerHTML !== '') return; // Avoid re-render if already active and displayed
 
             selectedMeal = newMeal;
-            // Update active button state
             mealSelector.querySelectorAll('button').forEach(btn => btn.classList.remove('active'));
             event.target.classList.add('active');
             displayMenu();
         }
 
-        // --- Display Logic ---
         function displayMenu() {
-            hideLoading(); // Ensure loading is hidden
-            menuDisplay.innerHTML = ''; // Clear previous menu
-            errorState.style.display = 'none'; // Hide any previous errors
-            noMenuState.style.display = 'none'; // Hide no menu message
-
+            hideLoading();
+            menuDisplay.innerHTML = '';
+            errorState.style.display = 'none';
+            noMenuState.style.display = 'none';
 
             if (!selectedDate || !selectedMeal) {
                  showNoMenuMessage('Please select a date and meal.');
@@ -539,82 +591,64 @@
                  return;
             }
             const mealData = dayData[selectedMeal];
-             if (!mealData || (!mealData.available_everywhere?.length && !mealData.partially_shared?.length && (!mealData.exclusive_by_hall || Object.keys(mealData.exclusive_by_hall).length === 0))) {
+            if (!mealData || (!mealData.available_everywhere?.length && !mealData.partially_shared?.length && (!mealData.exclusive_by_hall || Object.keys(mealData.exclusive_by_hall).length === 0))) {
                 showNoMenuMessage(`No menu items found for ${selectedMeal} on ${formatDateDisplay(selectedDate)}.`);
                 return;
             }
 
              const participatingCount = mealData.participating_halls_count || 0;
              const countInfo = document.createElement('p');
-             countInfo.textContent = `(${participatingCount} ${participatingCount === 1 ? 'Hall' : 'Halls'} Participating)`;
+             countInfo.textContent = `(${participatingCount} ${participatingCount === 1 ? 'Hall' : 'Halls'} Participating in ${selectedMeal})`;
              countInfo.className = 'participation-info';
              menuDisplay.appendChild(countInfo);
 
-
-            // 1. Available Everywhere
             if (mealData.available_everywhere && mealData.available_everywhere.length > 0) {
                 menuDisplay.appendChild(createSection('Available Everywhere', mealData.available_everywhere));
             }
-
-            // 2. Partially Shared
             if (mealData.partially_shared && mealData.partially_shared.length > 0) {
-                 menuDisplay.appendChild(createSection('Also Available (Specific Halls)', mealData.partially_shared, true)); // Pass true for special handling
+                 menuDisplay.appendChild(createSection('Also Available At', mealData.partially_shared, true));
             }
-
-            // 3. Exclusive Items - Modified for Grid Layout & Colors
             if (mealData.exclusive_by_hall && Object.keys(mealData.exclusive_by_hall).length > 0) {
                 const exclusiveSection = document.createElement('div');
-                exclusiveSection.className = 'menu-section'; // Keep the outer section styling
-
+                exclusiveSection.className = 'menu-section';
                 const exclusiveTitle = document.createElement('h3');
-                exclusiveTitle.textContent = 'Exclusive Items';
+                exclusiveTitle.textContent = 'Exclusive Items by Hall';
                 exclusiveSection.appendChild(exclusiveTitle);
 
-                // Add the container for the grid layout
                 const exclusiveItemsContainer = document.createElement('div');
                 exclusiveItemsContainer.className = 'exclusive-items-container';
-                exclusiveSection.appendChild(exclusiveItemsContainer); // Add grid container to section
+                exclusiveSection.appendChild(exclusiveItemsContainer);
 
-                // Sort halls alphabetically
                 const sortedHalls = Object.keys(mealData.exclusive_by_hall).sort();
-
                 sortedHalls.forEach(hallName => {
                     const items = mealData.exclusive_by_hall[hallName];
                     if (items && items.length > 0) {
-                        // Create a block for each hall
                         const hallBlock = document.createElement('div');
                         hallBlock.className = 'exclusive-hall-block';
+                        hallBlock.style.borderTopColor = getHallBorderColor(hallName);
 
-                        // --- Apply border color ---
-                        const borderColor = getHallBorderColor(hallName);
-                        hallBlock.style.borderTopColor = borderColor;
-                        // --- End Apply border color ---
+                        const hallTitleElement = document.createElement('h4');
+                        hallTitleElement.textContent = hallName;
+                        const hallColorInfo = getHallColor(hallName);
+                        hallTitleElement.style.color = hallColorInfo.text;
+                        // hallTitleElement.style.fontWeight = '700'; // Already in CSS
 
-                        const hallTitleElement = document.createElement('h4'); // Renamed to avoid conflict with title variable
-                        hallTitleElement.textContent = hallName; // Use hallName directly
-                        
-                        // Apply hall-specific color and make text bold
-                        const hallColor = getHallColor(hallName);
-                        hallTitleElement.style.color = hallColor.text; // Use the hall's specific color
-                        hallTitleElement.style.fontWeight = '700'; // Make sure it's bold
-                        
                         hallBlock.appendChild(hallTitleElement);
-                        hallBlock.appendChild(createList(items)); // Use the existing list creator
-
-                        // Add this hall's block to the grid container
+                        hallBlock.appendChild(createList(items));
                         exclusiveItemsContainer.appendChild(hallBlock);
                     }
                 });
-                menuDisplay.appendChild(exclusiveSection); // Add the whole section to the display
+                if (exclusiveItemsContainer.children.length > 0) { // Only add section if there's content
+                    menuDisplay.appendChild(exclusiveSection);
+                }
             }
         }
 
-        // --- Helper Functions ---
         function getHallColor(hallName) {
-            return hallColors[hallName] || { bg: 'var(--evgr-bg)', text: 'var(--evgr-color)' }; // Default to EVGR/Stone colors
+            return hallColors[hallName] || { bg: 'var(--evgr-bg)', text: 'var(--evgr-color)' };
         }
         function getHallBorderColor(hallName) {
-            return hallBorderColors[hallName] || 'var(--evgr-color)'; // Default Stone border
+            return hallBorderColors[hallName] || 'var(--evgr-color)';
         }
 
         function createSection(title, items, isPartiallyShared = false) {
@@ -631,12 +665,10 @@
             const ul = document.createElement('ul');
             ul.className = 'menu-list';
             items.forEach(itemData => {
-                // Adjust structure based on whether it's partially shared data or direct item list
                 const item = isPartiallyShared ? itemData.details : itemData;
-                if (!item) return; // Safety check
+                if (!item) return;
 
                 const li = document.createElement('li');
-
                 const nameSpan = document.createElement('span');
                 nameSpan.className = 'item-name';
                 nameSpan.textContent = item.name || 'Unknown Item';
@@ -647,16 +679,15 @@
                 flagsDiv.innerHTML = formatDietaryFlags(item);
                 li.appendChild(flagsDiv);
 
-                // Add hall list for partially shared items with color coding
-                if (isPartiallyShared && itemData.served_at) {
+                if (isPartiallyShared && itemData.served_at && itemData.served_at.length > 0) {
                     const hallsDiv = document.createElement('div');
                     hallsDiv.className = 'served-at-halls';
-                    hallsDiv.appendChild(document.createTextNode('At: ')); // Add "At: " prefix
+                    const atStrong = document.createElement('strong');
+                    atStrong.textContent = 'At: ';
+                    hallsDiv.appendChild(atStrong);
 
-                    // Sort halls for consistent display
                     const sortedServedAt = itemData.served_at.sort();
-
-                    sortedServedAt.forEach((hallName) => {
+                    sortedServedAt.forEach((hallName, index) => {
                         const hallSpan = document.createElement('span');
                         hallSpan.className = 'hall-mention';
                         hallSpan.textContent = hallName;
@@ -665,9 +696,8 @@
                         hallSpan.style.color = colors.text;
                         hallsDiv.appendChild(hallSpan);
                     });
-                    li.appendChild(hallsDiv); // Append the div containing styled spans
+                    li.appendChild(hallsDiv);
                 }
-
                 ul.appendChild(li);
             });
             return ul;
@@ -678,33 +708,31 @@
             let flagsHtml = '';
             if (dietaryInfo.gluten_free) flagsHtml += '<span class="dietary-flag gf">GF</span>';
             if (dietaryInfo.vegan) flagsHtml += '<span class="dietary-flag vg">VG</span>';
-            else if (dietaryInfo.vegetarian) flagsHtml += '<span class="dietary-flag v">V</span>'; // Show V only if not VG
+            else if (dietaryInfo.vegetarian) flagsHtml += '<span class="dietary-flag v">V</span>';
             if (dietaryInfo.halal) flagsHtml += '<span class="dietary-flag h">H</span>';
-            // Add other flags here if needed
             return flagsHtml;
         }
 
         function formatDateDisplay(dateString) {
-             // Attempts to format M/D/YYYY - DayOfWeek into a more readable format
              try {
                 const parts = dateString.split(' - ');
                 const datePart = parts[0];
                 const dayName = parts.length > 1 ? parts[1] : '';
-                // Simple reformat - assumes M/D/YYYY input
                 const [month, day, year] = datePart.split('/');
-                 // You could use Intl.DateTimeFormat for more robust formatting if needed
-                 // const dateObj = new Date(year, month - 1, day);
-                 // return `${dateObj.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })}`;
-                 return `${dayName}, ${month}/${day}`; // Example: Monday, 5/5
+                const dateObj = new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+
+                // More robust formatting
+                const options = { weekday: 'long', month: 'long', day: 'numeric' };
+                // If year is current year, optionally omit it. For now, keep it simple.
+                // return `${dayName}, ${month}/${day}`;
+                return dateObj.toLocaleDateString('en-US', options);
+
              } catch (e) {
-                 return dateString; // Fallback to original string if parsing fails
+                 return dateString;
              }
         }
 
-
-        // --- Start the application ---
         document.addEventListener('DOMContentLoaded', loadData);
-
     </script>
 </body>
 </html>
