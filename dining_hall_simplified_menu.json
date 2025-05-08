@@ -1004,7 +1004,7 @@
   },
   "5/11/2025 - Sunday": {
     "Dinner": {
-      "participating_halls_count": 8,
+      "participating_halls_count": 9,
       "available_everywhere": [
         {
           "name": "Penne Pasta (Gluten-Free)",
@@ -1032,6 +1032,80 @@
         }
       ],
       "exclusive_by_hall": {
+        "EVGR Dining": [
+          {
+            "name": "Braised Okra & Lentil Stew",
+            "ingredients": "okra, lentils, vegetable soup base (contains onions, mushrooms), spinach, tomato, buffalo sauce, bell peppers, garlic, basil, sage, italian seasoning blend, celery, paprika, paprika, cayenne pepper, rosemary, thyme, canola/olive oil blend, kosher salt, black pepper",
+            "allergens": "None",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": true,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Coconut Curry Chicken",
+            "ingredients": "chicken, potatoes, onions, bell peppers, carrots, habanero chili, green onions, vegetable soup base (contains carrots, mushroom, celery), canola/olive oil blend, garlic, ginger, coconut milk, curry powder, allspice, thyme, turmeric, salt, pepper",
+            "allergens": "COCONUT",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": true,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Fried Plantain",
+            "ingredients": "plantain, fried in canola oil",
+            "allergens": "None",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Jollof Rice",
+            "ingredients": "basmati rice, tomatoes, green peas, onions, carrots, canola/olive oil blend, tomato paste, ginger, garlic, curry powder, cinnamon stick, cardamom seeds, bay leaf, salt",
+            "allergens": "None",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Pasta Pesto",
+            "ingredients": "pasta, pesto sauce (basil, canola oil, parmesan cheese, extra virgin olive oil, garlic, lemon juice concentrate, natural flavor, ascorbic acid, xanthan gum, soy lecithin, chamomile extract, rosemary extract, salt)",
+            "allergens": "MILK, SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Tofu Sandwich",
+            "ingredients": "tofu, bell peppers, pineapple, green onions, jerk seasoning (spices, salt, sugar, dehydrated onion, red pepper), chili sauce, mayonnaise, apple cider vinegar, honey, telera roll (enriched flour, sour culture, canola oil, sugar, salt, yeast, wheat flour, cultured wheat flour, white corn meal, enzymes, soybean oil)",
+            "allergens": "EGG, SOY, WHEAT",
+            "trace_allergens": "COCONUT, MILK, TREENUTS",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          }
+        ],
         "Florence Moore Dining": [
           {
             "name": "Creamy Butter Chicken",
@@ -1194,7 +1268,7 @@
             }
           },
           {
-            "name": "Rice and salt",
+            "name": "Steamed Rice",
             "ingredients": "white rice, salt",
             "allergens": "None",
             "trace_allergens": "None mentioned",
@@ -1356,6 +1430,7 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
             "Lakeside Dining",
             "Wilbur Dining"
           ]
@@ -1394,6 +1469,7 @@
             }
           },
           "served_at": [
+            "EVGR Dining",
             "Florence Moore Dining",
             "Stern Dining"
           ]
@@ -1414,6 +1490,7 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
             "Florence Moore Dining",
             "Lakeside Dining",
             "Ricker Dining",
@@ -1464,7 +1541,7 @@
       ]
     },
     "Lunch": {
-      "participating_halls_count": 8,
+      "participating_halls_count": 9,
       "available_everywhere": [
         {
           "name": "Penne Pasta (Gluten-Free)",
@@ -1492,6 +1569,116 @@
         }
       ],
       "exclusive_by_hall": {
+        "EVGR Dining": [
+          {
+            "name": "Balsamic Glazed Cheese Pizza",
+            "ingredients": "wheat flour, yeast, sugar, olive oil, mozzarella cheese, balsamic vinegar, arugula, marinara sauce",
+            "allergens": "MILK, WHEAT",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Char Siu Pork",
+            "ingredients": "pork, hoisin sauce, garlic, red food coloring, ginger, brown sugar, tamari, garlic chili sauce, char siu sauce (hoisin sauce, plum sauce, tamari, chinese five spice powder)",
+            "allergens": "SESAME, SOY, WHEAT",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Egg Roll",
+            "ingredients": "enriched flour, calcium propionate, malted barley flour, cabbage, celery, carrots, bok choy, enriched durum flour, wheat flour, water chestnuts, bamboo shoots, salt, modified food starch, cottonseed oil, canola oil, sugar, spice, garlic, wheat gluten, sesame oil, dried onion, maltodextrin, natural flavor, disodium inosinate, disodium guanylate, eggs, sesame oil, cornstarch, fried in canola oil",
+            "allergens": "EGG, SESAME, WHEAT",
+            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SHELLFISH, SOY, TREENUTS",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Miso Tofu Stir-Fry",
+            "ingredients": "tofu, onions, miso sesame dressing (ginger, sesame oil, mustard, white miso, rice vinegar, tamari sauce, canola/olive oil blend, brown sugar, garlic, sesame seeds), sesame oil, canola/olive oil blend, celery, sesame seeds",
+            "allergens": "SESAME, SOY",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": true,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Pasta Pesto",
+            "ingredients": "pasta, pesto sauce (basil, canola oil, parmesan cheese, extra virgin olive oil, garlic, lemon juice concentrate, natural flavor, ascorbic acid, xanthan gum, soy lecithin, chamomile extract, rosemary extract, salt)",
+            "allergens": "MILK, SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Pickled Cucumbers",
+            "ingredients": "cucumbers, korean red peppers, seasoned rice vinegar, salt",
+            "allergens": "None",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": true,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Sauteed Swiss Chard & Kale",
+            "ingredients": "kale, swiss chard, garlic, lemon juice, canola olive oil, thyme, pepper, salt",
+            "allergens": "None",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": true,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Seasonal Rice Noodle Stir Fry",
+            "ingredients": "rice noodles, carrots, celery, onions, canola/olive oil blend, mushroom seasoning",
+            "allergens": "None",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": true,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Tomato Soup with Grilled Cheese",
+            "ingredients": "texas toast, tomato soup, american cheese, cheddar cheese, unsalted butter, onions, canola/olive oil blend",
+            "allergens": "MILK, SOY, WHEAT",
+            "trace_allergens": "EGG, PEANUTS, SESAME, TREENUTS",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          }
+        ],
         "Florence Moore Dining": [
           {
             "name": "Chicken Adobo",
@@ -1790,18 +1977,6 @@
             }
           },
           {
-            "name": "Pasta Marinara",
-            "ingredients": "pasta, marinara sauce, canola/olive oil blend",
-            "allergens": "SOY, WHEAT",
-            "trace_allergens": "EGG",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
             "name": "Red Beans & Rice",
             "ingredients": "rice, red beans, onion, carrot, celery, garlic, creole spice mix (salt, herb de provence, cumin, cayenne pepper, pepper, paprika), canola oil",
             "allergens": "None",
@@ -1967,6 +2142,7 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
             "Lakeside Dining",
             "Wilbur Dining"
           ]
@@ -1994,6 +2170,24 @@
         },
         {
           "details": {
+            "name": "Pasta Marinara",
+            "ingredients": "pasta, marinara sauce, canola/olive oil blend",
+            "allergens": "SOY, WHEAT",
+            "trace_allergens": "EGG",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          "served_at": [
+            "EVGR Dining",
+            "Stern Dining"
+          ]
+        },
+        {
+          "details": {
             "name": "Performance Bar",
             "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
             "allergens": "None",
@@ -2008,6 +2202,7 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
             "Lakeside Dining",
             "Ricker Dining",
             "Wilbur Dining"
@@ -2029,6 +2224,7 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
             "Florence Moore Dining",
             "Lakeside Dining",
             "Wilbur Dining"
@@ -2969,7 +3165,7 @@
       ]
     }
   },
-  "5/6/2025 - Tuesday": {
+  "5/13/2025 - Tuesday": {
     "Dinner": {
       "participating_halls_count": 9,
       "available_everywhere": [
@@ -2984,191 +3180,77 @@
             "vegan": false,
             "halal": false
           }
+        },
+        {
+          "name": "Performance Bar",
+          "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
+          "allergens": "None",
+          "trace_allergens": "None mentioned",
+          "dietary_info": {
+            "gluten_free": false,
+            "vegetarian": false,
+            "vegan": false,
+            "halal": false
+          }
+        },
+        {
+          "name": "Seasonal Steamed Vegetables",
+          "ingredients": "seasonal vegetables, salt",
+          "allergens": "None",
+          "trace_allergens": "None mentioned",
+          "dietary_info": {
+            "gluten_free": true,
+            "vegetarian": false,
+            "vegan": false,
+            "halal": false
+          }
         }
       ],
       "exclusive_by_hall": {
-        "EVGR Dining": [
+        "Lakeside Dining": [
           {
-            "name": "Arroz Blanco",
-            "ingredients": "jasmine rice, canola/olive oil blend, onions, garlic, salt, parsley",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Chicken Tinga *NOT HALAL*",
-            "ingredients": "chicken tinga (chicken, tinga sauce [tomatoes, garlic, chipotle pepper (contains cornstarch), bell peppers, pasilla chili pepper], adobo marinade [canola oil, chili powder, ancho chili powder, onion, garlic, allspice, clove, cumin seed, oregano, salt])",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Fajita Tofu",
-            "ingredients": "tofu (soybeans, glucono delta lactone, calcium sulfate), canola oil, garlic, lemon juice, cayenne pepper, oregano, paprika, onions, cilantro, bell peppers, salt, black pepper",
-            "allergens": "SOY",
-            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "name": "Chicken & Andouille Sausage Gumbo",
+            "ingredients": "chicken, beef pork sausage, celery, onions, bell peppers, okra, flour, canola oil, tomato sauce, tomatoes, chicken soup base, gumbo spice, parsley, thyme, bay leaf, cayenne pepper, salt, pepper",
+            "allergens": "WHEAT",
+            "trace_allergens": "SESAME",
             "dietary_info": {
               "gluten_free": false,
               "vegetarian": false,
               "vegan": false,
               "halal": false
             }
-          }
-        ],
-        "Florence Moore Dining": [
+          },
           {
-            "name": "Oyster Mushroom & Chickpea Pibil",
-            "ingredients": "oyster mushroom, chickpeas, canola/olive oil blend, pibil sauce (garlic, onion, cumin, oregano, achiote paste, allspice, orange juice, lime, cinnamon, ground clove)",
+            "name": "Cilantro Jasmine Rice",
+            "ingredients": "jasmine rice, onions, canola/olive oil blend, cilantro, green onion, jalapeno chili, salt, garlic",
+            "allergens": "None",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": true,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Creamed Dinosaur Kale & Squash",
+            "ingredients": "kale, butternut squash, coconut milk, garlic, canola/olive oil blend, onions, calabrian pepper, salt, pepper",
+            "allergens": "COCONUT",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": true,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Garlic Fries",
+            "ingredients": "french fries, garlic, parsley, canola/olive oil blend, canola shortening",
             "allergens": "None",
             "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
             "dietary_info": {
               "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Paprika Chicken with Pibil Sauce",
-            "ingredients": "smoked paprika chicken(chicken, smoked paprika, canola/olive oil blend, salt, pepper), pibil sauce(onions, orange juice, lime juice, achiote paste, garlic, salt, allspice, clove, cumin, oregano, cinnamon, pepper)",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Poblano Rice",
-            "ingredients": "basmati rice, vegetable soup base, poblano chile, onion, canola/olive oil blend, garlic, salt, cilantro",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Roasted Corn on the Cob",
-            "ingredients": "corn, butter, salt",
-            "allergens": "MILK",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          }
-        ],
-        "Gerhard Casper Dining": [
-          {
-            "name": "Rustic Ratatouille & White Beans",
-            "ingredients": "tomato, eggplant, mushrooms, seasonal squash, white beans, canola/olive oil blend, bell peppers, salt, pepper, basil, thyme, parsley, onions, garlic",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Seasonal Roasted Vegetables",
-            "ingredients": "seasonal vegetables, canola/olive oil blend, salt, pepper",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Spaghetti and Meatballs",
-            "ingredients": "spaghetti, marinara sauce, salt, parsley, parmesan cheese, canola/olive oil blend, meatball mix (beef, mushroom blend, breadcrumbs, parsley, basil, eggs, italian seasoning, garlic, pepper, salt)",
-            "allergens": "EGG, MILK, SOY, WHEAT",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Tomato Pasta with Mushrooms",
-            "ingredients": "Roasted Mushroom & Tomato Pasta (pasta, mushrooms, tomatoes, red onion, canola/olive oil blend, garlic, basil, salt, red pepper flakes, kale vinaigrette [canola oil, red wine vinegar, rice vinegar, kale, water, dijon mustard, garlic, shallot, parsley, basil, beet sugar, pepper, salt]), Sauteed Greens (seasonal mixed greens, olive oil, garlic, salt, pepper)",
-            "allergens": "WHEAT",
-            "trace_allergens": "EGG",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Tomato Soup with Grilled Cheese",
-            "ingredients": "texas toast, tomato soup, american cheese, cheddar cheese, unsalted butter, onions, canola/olive oil blend",
-            "allergens": "MILK, SOY, WHEAT",
-            "trace_allergens": "EGG, PEANUTS, SESAME, TREENUTS",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          }
-        ],
-        "Lakeside Dining": [
-          {
-            "name": "Ensalada de Garbanzo",
-            "ingredients": "lettuce, onion, chickpea, tomato, queso fresco cheese, canola/olive oil blend, apple cider vinegar, jalapeno chili, lime, honey clover, salt",
-            "allergens": "MILK",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "French Fries",
-            "ingredients": "potatoes, canola oil, corn oil, cottonseed oil, palm oil, soybean oil, sunflower oil, modified food starch, rice flour, dextrin, sea salt, sugar, leavening, garlic powder, spices, natural flavors, onion powder, dextrose, xanthan gum, salt, spice, coloring, cocoa powder",
-            "allergens": "SOY",
-            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Garlic Mashed Potatoes",
-            "ingredients": "potatoes, cream, butter, canola/olive oil blend, garlic, salt, pepper",
-            "allergens": "MILK",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
               "vegetarian": false,
               "vegan": false,
               "halal": false
@@ -3187,18 +3269,6 @@
             }
           },
           {
-            "name": "Lomo Saltado",
-            "ingredients": "beef, tomato, tamari, cilantro, onions, french fries, bell peppers, garlic, salt, pepper, lomo saltado sauce (tamari, red wine vinegar, aji amarillo, canola/olive oil blend, salt, pepper)",
-            "allergens": "SOY",
-            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
             "name": "Pickled Vegetables",
             "ingredients": "cauliflower, carrots, canola oil, jalapeno chili, turmeric, cinnamon, garlic, thyme, allspice, peppercorn, onions, kosher salt, apple cider vinegar, sugar",
             "allergens": "None",
@@ -3209,61 +3279,25 @@
               "vegan": false,
               "halal": false
             }
-          },
-          {
-            "name": "Plant-Forward Chick'n Al Pastor",
-            "ingredients": "plant-forward chick'n (soy protein isolate, wheat gluten, natural flavors, yeast extract, cane sugar, canola oil, sea salt, ancient grains flour [kamut, amaranth, millet, quinoa], pea protein, carrot fiber, beetroot fiber, onion powder, paprika, turmeric), onions, guajillo chili, orange juice, achiote paste, garlic, cilantro, pineapple, white vinegar, lime juice, canola/olive oil blend, cumin seeds, salt, pepper",
-            "allergens": "SOY, WHEAT",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "RSK Macaroni & Cheese",
-            "ingredients": "macaroni pasta, bread crumb, cream, cheddar cheese, butter, flour, milk, hot sauce, garlic, nutmeg, worcestershire sauce (vinegar, molasses, high fructose corn syrup, anchovies, water, salt, garlic, tamarind concentrate, cloves, natural flavorings, chili pepper extract), parsley",
-            "allergens": "FISH, MILK, WHEAT",
-            "trace_allergens": "EGG",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Sauteed Green Beans",
-            "ingredients": "green beans, shallots, canola/olive oil blend, garlic, salt",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Southern Fried Chicken",
-            "ingredients": "chicken halal , buttermilk, flour, thyme, oregano, garlic powder, cayenne pepper, onion powder, tarragon, parsley, salt, black pepper, deep fried in canola oil",
-            "allergens": "MILK, WHEAT",
-            "trace_allergens": "COCONUT, EGG, FISH, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
           }
         ],
         "Ricker Dining": [
           {
-            "name": "Japanese Chicken Curry",
-            "ingredients": "chicken, curry paste (wheat flour, palm oil, grapeseed oil, sugar, salt, curry powder, monosodium glutamate, caramel color, pepper, garlic, celery seed, mustard), potatoes, mushroom, onions, carrots, celery, vegetable soup base",
-            "allergens": "WHEAT",
+            "name": "Classic Fried Rice",
+            "ingredients": "brown rice, onions, carrots, celery, green peas, canola/olive oil blend, tamari, green onions, salt",
+            "allergens": "SOY",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Huli Huli Tofu",
+            "ingredients": "tofu, pineapple, bell pepper, onions, canola/olive oil blend, huli huli glaze (pineapple juice, rice vinegar, ginger, chili sauce, cornstarch, mushrooms, brown sugar, garlic, ketchup, sea salt), huli huli sauce (tamari, pineapple juice, ketchup, sriracha sauce, brown sugar, rice vinegar, garlic, ginger, cornstarch)",
+            "allergens": "SOY",
             "trace_allergens": "None mentioned",
             "dietary_info": {
               "gluten_free": false,
@@ -3285,24 +3319,24 @@
             }
           },
           {
-            "name": "Miso Tofu Stir-Fry",
-            "ingredients": "tofu, onions, miso sesame dressing (ginger, sesame oil, mustard, white miso, rice vinegar, tamari sauce, canola/olive oil blend, brown sugar, garlic, sesame seeds), sesame oil, canola/olive oil blend, celery, sesame seeds",
-            "allergens": "SESAME, SOY",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
             "name": "Pasta",
             "ingredients": "semolina, durum wheat flour, canola/olive oil blend",
             "allergens": "WHEAT",
             "trace_allergens": "EGG",
             "dietary_info": {
               "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Star Ginger Teriyaki Chicken",
+            "ingredients": "chicken, teriyaki marinade (canola oil, alcohol free mirin, alcohol free tamari, garlic, chili powder), teriyaki glaze (beet sugar, alcohol free tamari, cornstarch, canola oil), onions, bok choy",
+            "allergens": "SOY",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": true,
               "vegetarian": false,
               "vegan": false,
               "halal": false
@@ -3323,72 +3357,12 @@
             }
           },
           {
-            "name": "Chicken Parmesan",
-            "ingredients": "chicken, italian seasoning, garlic powder, eggs, milk, breadcrumbs, flour, mozzarella cheese, parmesan cheese, canola/olive oil blend, garlic powder, italian seasoning, salt, marinara sauce",
-            "allergens": "EGG, MILK, SOY, WHEAT",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Creamy Pumpkin Sage Pasta",
-            "ingredients": "pasta, coconut milk, pumpkin, butternut squash, mushrooms, onions, spinach, pumpkin seeds, sage, salt, pepper, garlic powder",
-            "allergens": "COCONUT, WHEAT",
-            "trace_allergens": "EGG, PEANUTS, TREENUTS",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Mixed Greens Salad",
-            "ingredients": "mixed greens, shredded carrots, cherry tomatoes, italian dressing (soybean oil, distilled vinegar, high fructose corn syrup, corn syrup, salt, garlic, corn syrup solids, xanthan gum, lemon juice concentrate, spice, red bell pepper, paprika, fd&c yellow no.5, fd&c yellow No.6)",
-            "allergens": "SOY",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Mushroom Risotto",
-            "ingredients": "arborio rice, cheese, milk, mushrooms, vegetable soup base, yellow onions, garlic cloves, canola/olive oil blend, parsley, mushroom seasoning, salt, pepper, thyme, garnish (green peas)",
-            "allergens": "MILK, SOY",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
             "name": "Pollo Asado Grilled Chicken",
             "ingredients": "chicken, ancho chili, guajillo chili, garlic, onions, canola/olive oil blend, vinegar, cuminseed, marjoram leaf, oregano, salt, pepper",
             "allergens": "None",
             "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
             "dietary_info": {
               "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Roasted Broccoli",
-            "ingredients": "broccoli, olive oil, salt, pepper",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
               "vegetarian": false,
               "vegan": false,
               "halal": false
@@ -3417,6 +3391,18 @@
               "vegan": false,
               "halal": false
             }
+          },
+          {
+            "name": "Totopos (Fried Tortilla Chips)",
+            "ingredients": "tortilla chips, salt, fried in canola oil",
+            "allergens": "None",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
           }
         ],
         "Wilbur Dining": [
@@ -3427,18 +3413,6 @@
             "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SHELLFISH, TREENUTS, WHEAT",
             "dietary_info": {
               "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Mashed Potatoes",
-            "ingredients": "dehydrated mashed potato pearls, cream, whole milk, butter, salt, pepper",
-            "allergens": "MILK",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
               "vegetarian": false,
               "vegan": false,
               "halal": false
@@ -3457,12 +3431,12 @@
             }
           },
           {
-            "name": "Tasty Tofu Scramble",
-            "ingredients": "tofu, seasonal vegetables, canola/olive oil blend, salt, pepper, turmeric, garlic",
-            "allergens": "SOY",
-            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
+            "name": "Steamed Rice",
+            "ingredients": "white rice, salt",
+            "allergens": "None",
+            "trace_allergens": "None mentioned",
             "dietary_info": {
-              "gluten_free": false,
+              "gluten_free": true,
               "vegetarian": false,
               "vegan": false,
               "halal": false
@@ -3485,28 +3459,9 @@
       "partially_shared": [
         {
           "details": {
-            "name": "Buttermilk Fried Chicken",
-            "ingredients": "buttermilk fried chicken (chicken, flour, salt, pepper, buttermilk marinade [buttermilk, tarragon, parsley, blackening spice [paprika, onion powder, garlic powder, thyme, oregano, cayenne pepper, black pepper, salt]), fried in canola oil",
-            "allergens": "MILK, WHEAT",
-            "trace_allergens": "COCONUT, EGG, FISH, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
-            "Arrillaga Family Dining Commons",
-            "Branner Dining",
-            "Wilbur Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Corn Tortilla",
-            "ingredients": "white corn, lime, sodium propionate, cellulose gum, fumaric acid, sorbic acid",
-            "allergens": "None",
+            "name": "Mojo Tofu",
+            "ingredients": "tofu, cuban citrus mojo marinade (lime juice, lemon juice, garlic, canola oil, oregano, salt, pepper)",
+            "allergens": "SOY",
             "trace_allergens": "None mentioned",
             "dietary_info": {
               "gluten_free": true,
@@ -3516,63 +3471,14 @@
             }
           },
           "served_at": [
+            "Arrillaga Family Dining Commons",
+            "Branner Dining",
+            "EVGR Dining",
             "Florence Moore Dining",
-            "Stern Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Double Smoked Bacon",
-            "ingredients": "bacon, salt, sugar, sodium phosphate, sodium erythorbate, sodium nitrite",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
-            "Arrillaga Family Dining Commons",
-            "Branner Dining",
-            "Florence Moore Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "French Toast Sticks",
-            "ingredients": "french toast sticks (bread [wheat flour, malted barley flour, sugar, yeast, soybean oil, wheat gluten, cultured wheat flour, yellow corn flour, annatto, turmeric, salt, vinegar, enzymes], vegetable oil [soybean, canola], sugar, soy flour, iodized salt, salt, dextrose, natural flavors, baking soda, modified food starch, soy lecithin, instant yeast, carrageenan, gum arabic), powdered sugar, fried in canola oil",
-            "allergens": "SOY, WHEAT",
-            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
-            "Arrillaga Family Dining Commons",
-            "Branner Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Garlic Breadstick",
-            "ingredients": "enriched wheat flour, malted barley flour, salt, sugar, datem, enzymes, l-cysteine, calcium sulfate, dextrose, yeast, calcium propionate, monoglycerides, diglycerides, citric acid, cornmeal, soybean oil, palm oil, dehydrated garlic, salt, natural flavors, artificial flavors, citric acid, whey, garnish (parmesan, parsley)",
-            "allergens": "MILK, SOY, WHEAT",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
             "Gerhard Casper Dining",
-            "Stern Dining"
+            "Lakeside Dining",
+            "Stern Dining",
+            "Wilbur Dining"
           ]
         },
         {
@@ -3591,8 +3497,11 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
             "Florence Moore Dining",
+            "Gerhard Casper Dining",
             "Lakeside Dining",
+            "Stern Dining",
             "Wilbur Dining"
           ]
         },
@@ -3613,7 +3522,7 @@
             "Arrillaga Family Dining Commons",
             "Branner Dining",
             "EVGR Dining",
-            "Florence Moore Dining",
+            "Gerhard Casper Dining",
             "Lakeside Dining",
             "Stern Dining",
             "Wilbur Dining"
@@ -3635,73 +3544,18 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
+            "Florence Moore Dining",
             "Gerhard Casper Dining",
             "Lakeside Dining",
-            "Stern Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Performance Bar",
-            "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
-            "Arrillaga Family Dining Commons",
-            "Branner Dining",
-            "Florence Moore Dining",
-            "Lakeside Dining",
-            "Ricker Dining",
+            "Stern Dining",
             "Wilbur Dining"
           ]
         },
         {
           "details": {
-            "name": "Plant-Forward Frittata",
-            "ingredients": "mung bean protein egg substitute (mung bean protein, canola oil, dehydrated onion, gellan gum, natural carrot extractives, turmeric extractives, potassium citrate, salt, sugar, tapioca syrup solids, tetrasodium pyrophosphate, transglutaminase, nisin), mushrooms, spinach, bell peppers, canola/olive oil blend, garlic, salt, pepper",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
-            "Arrillaga Family Dining Commons",
-            "Branner Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Scrambled Eggs",
-            "ingredients": "eggs, canola/olive oil blend, salt",
-            "allergens": "EGG",
-            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
-            "Arrillaga Family Dining Commons",
-            "Branner Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Seasonal Steamed Vegetables",
-            "ingredients": "seasonal vegetables, salt",
+            "name": "Ropa Vieja (Beef Stew)",
+            "ingredients": "beef, beef soup base, potatoes, bell peppers, carrots, onions, celery, olive, tomatoes, garlic, tomato paste, canola/olive oil blend, bay leaf, cumin, salt, pepper",
             "allergens": "None",
             "trace_allergens": "None mentioned",
             "dietary_info": {
@@ -3716,35 +3570,40 @@
             "Branner Dining",
             "EVGR Dining",
             "Florence Moore Dining",
+            "Gerhard Casper Dining",
             "Lakeside Dining",
-            "Ricker Dining",
             "Stern Dining",
             "Wilbur Dining"
           ]
         },
         {
           "details": {
-            "name": "Steamed Rice",
-            "ingredients": "white rice, salt",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
+            "name": "Sauteed Green Beans with Crispy Shallots",
+            "ingredients": "green beans, canola/olive oil blend, shallots, garlic, salt, pepper",
+            "allergens": "SOY",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
             "dietary_info": {
-              "gluten_free": true,
+              "gluten_free": false,
               "vegetarian": false,
               "vegan": false,
               "halal": false
             }
           },
           "served_at": [
+            "Arrillaga Family Dining Commons",
+            "Branner Dining",
+            "EVGR Dining",
+            "Florence Moore Dining",
+            "Gerhard Casper Dining",
             "Lakeside Dining",
-            "Ricker Dining",
+            "Stern Dining",
             "Wilbur Dining"
           ]
         },
         {
           "details": {
-            "name": "Sweet Potato Hash",
-            "ingredients": "sweet potatoes, bell peppers, green onions, canola/olive oil blend, garlic, salt, pepper",
+            "name": "Yellow Spanish Rice",
+            "ingredients": "white rice, bell peppers, diced onion, annatto seeds, green peas, vegetable soup base (contains mushrooms, celery), garlic, pepper, salt",
             "allergens": "None",
             "trace_allergens": "None mentioned",
             "dietary_info": {
@@ -3757,6 +3616,34 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
+            "Florence Moore Dining",
+            "Gerhard Casper Dining",
+            "Lakeside Dining",
+            "Stern Dining",
+            "Wilbur Dining"
+          ]
+        },
+        {
+          "details": {
+            "name": "Yucca Fries",
+            "ingredients": "cassava, salt, fried in canola oil",
+            "allergens": "None",
+            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          "served_at": [
+            "Arrillaga Family Dining Commons",
+            "Branner Dining",
+            "EVGR Dining",
+            "Florence Moore Dining",
+            "Gerhard Casper Dining",
+            "Stern Dining",
             "Wilbur Dining"
           ]
         }
@@ -3766,8 +3653,56 @@
       "participating_halls_count": 9,
       "available_everywhere": [
         {
+          "name": "Chicken Souvlaki",
+          "ingredients": "chicken, bell peppers, onions, zucchini, lemon, balsamic vinegar, lemon juice, garlic, oregano, salt, pepper",
+          "allergens": "None",
+          "trace_allergens": "None mentioned",
+          "dietary_info": {
+            "gluten_free": true,
+            "vegetarian": false,
+            "vegan": false,
+            "halal": false
+          }
+        },
+        {
+          "name": "Lemon Herb Roasted Potatoes",
+          "ingredients": "potatoes, lemon juice, thyme, parsley, turmeric, lemon pepper, canola/olive oil blend, garlic, salt, pepper",
+          "allergens": "None",
+          "trace_allergens": "None mentioned",
+          "dietary_info": {
+            "gluten_free": true,
+            "vegetarian": false,
+            "vegan": false,
+            "halal": false
+          }
+        },
+        {
           "name": "Penne Pasta (Gluten-Free)",
           "ingredients": "brown rice, rice bran, water",
+          "allergens": "None",
+          "trace_allergens": "None mentioned",
+          "dietary_info": {
+            "gluten_free": true,
+            "vegetarian": false,
+            "vegan": false,
+            "halal": false
+          }
+        },
+        {
+          "name": "Performance Bar",
+          "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
+          "allergens": "None",
+          "trace_allergens": "None mentioned",
+          "dietary_info": {
+            "gluten_free": false,
+            "vegetarian": false,
+            "vegan": false,
+            "halal": false
+          }
+        },
+        {
+          "name": "Roasted Chickpeas with Citrus Quinoa",
+          "ingredients": "quinoa, brussels sprouts, garlic, thyme, lemon, spiced garbanzo beans (chickpeas, cumin, chili powder, garlic, salt, pepper, canola/olive oil blend), cherry tomatoes, avocado, canola/olive oil blend, kale vinaigrette (kale, canola oil, water, mustard seeds, vinegar, salt, sulfites, shallots, rice vinegar)",
           "allergens": "None",
           "trace_allergens": "None mentioned",
           "dietary_info": {
@@ -3791,216 +3726,14 @@
         }
       ],
       "exclusive_by_hall": {
-        "Arrillaga Family Dining Commons": [
-          {
-            "name": "Herb Roasted Sweet Potatoes",
-            "ingredients": "sweet potatoes, chives, thyme, rosemary, thyme, garlic, canola/olive oil blend, salt, pepper",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Quinoa Pilaf with Roasted Vegetables",
-            "ingredients": "quinoa, roasted seasonal vegetables, canola/olive oil blend, lemon juice, parsley, salt, pepper",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          }
-        ],
-        "Branner Dining": [
-          {
-            "name": "Clam Chowder & Bread Bowl",
-            "ingredients": "bread bowl, clam chowder (clam soup base [corn, maltodextrin yeast, potato], whole milk, butter, cream, potatoes, onions, celery, flour, clam meat, clam juice, shallots, white wine vinegar, garlic, thyme, bay leaf)",
-            "allergens": "MILK, SHELLFISH, WHEAT",
-            "trace_allergens": "COCONUT, EGG, PEANUTS, SESAME, SOY, TREENUTS",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          }
-        ],
-        "EVGR Dining": [
-          {
-            "name": "Mongolian Tofu",
-            "ingredients": "tofu, mongolian sauce (tamari, sugar, ginger root, garlic, canola/olive oil)",
-            "allergens": "SOY",
-            "trace_allergens": "COCONUT, EGG, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS, WHEAT",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Spice Roasted Chicken",
-            "ingredients": "chicken, canola oil, olive oil, spice rub (coriander, cumin, garlic, turmeric, paprika, cloves, cinnamon, ground ginger, salt, black pepper)",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Steamed Rice",
-            "ingredients": "white rice, salt",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          }
-        ],
-        "Florence Moore Dining": [
-          {
-            "name": "Rendang Beef Stew",
-            "ingredients": "beef, coconut milk, sweetened coconut flakes, water, lemongrass, kaffir lime leaves, spanish paprika, coriander, cardamom, tamari, canola oil, beet sugar, tamarind paste, water, garlic, ginger, shallot, thai green chile pepper, fennel, galangal, salt",
-            "allergens": "COCONUT, SOY",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          }
-        ],
-        "Gerhard Casper Dining": [
-          {
-            "name": "BBQ Portabello Wrap",
-            "ingredients": "portabello mushroom, tomato, lettuce, flour tortilla, bbq sauce (ketchup, molasses, apple cider vinegar, lemon, liquid smoke, dijon mustard, chipotle peppers in adobo, alcohol free tamari, ginger, chili powder, garlic powder, black pepper)",
-            "allergens": "SOY, WHEAT",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Butter Chicken",
-            "ingredients": "chicken, butter chicken sauce (coriander seed, garlic, sour cream, cumin seed, salt, chili powder, ginger, garam masala, plain greek yogurt, turmeric, canola/olive oil blend)",
-            "allergens": "MILK",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Cumin Spiced Rice Pilaf",
-            "ingredients": "basmati rice, cumin, onions, canola/olive oil blend, salt, pepper",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Dal Gobi",
-            "ingredients": "lentils, onion, cauliflower, turmeric, cumin, coriander, red pepper flakes, lemon juice, canola/olive oil blend",
-            "allergens": "None",
-            "trace_allergens": "WHEAT",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Ricotta Cheese & Pesto Pizza",
-            "ingredients": "tomatoes, pizza dough, sundried tomato garlic and pesto sauce, parmesan cheese, mozzarella cheese, oregano, ricotta cheese",
-            "allergens": "MILK, SOY, WHEAT",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          }
-        ],
         "Lakeside Dining": [
           {
-            "name": "Burrito Bar",
-            "ingredients": "Tortillas, Salsa Roja, Queso Fresco, Chipotle Crema, Salsa Verde",
+            "name": "Nacho Bar",
+            "ingredients": "Not listed",
             "allergens": "None",
             "trace_allergens": "None mentioned",
             "dietary_info": {
               "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Carnitas",
-            "ingredients": "pork, onions, garlic, bay leaf, salt",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Plant-Forward “Chick’n” Tinga",
-            "ingredients": "plant-forward \"chick'n\", onion, bell peppers, tomato puree, canola/olive oil blend, salt, paprika, cayenne pepper, garlic, onion, cumin",
-            "allergens": "SOY, WHEAT",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Refried Black Beans",
-            "ingredients": "refried beans (pinto beans, onions, garlic, canola oil, extra virgin olive oil, cumin, coriander, cilantro, salt), canola/olive oil blend, queso fresco, queso panela",
-            "allergens": "MILK",
-            "trace_allergens": "COCONUT, EGG, FISH, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Spanish Rice",
-            "ingredients": "brown rice, vegetable soup base (contains mushrooms, celery), onions, bell peppers, garlic, jalapeno peppers, canola/olive oil blend, tomato juice, salt, coriander, cumin, pepper, cilantro",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
               "vegetarian": false,
               "vegan": false,
               "halal": false
@@ -4008,30 +3741,6 @@
           }
         ],
         "Ricker Dining": [
-          {
-            "name": "Aloo Gobi",
-            "ingredients": "potatoes, cauliflower, garlic, canola/olive oil blend, onions, chili powder, cuminseed, corianderseed, turmeric, garam masala, ginger, salt",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Creamy Butter Chicken",
-            "ingredients": "chicken, unsalted butter, curry sauce (onions, ginger, garlic, tomato puree, tomato sauce, tomato paste, ketchup, turmeric, garam masala, coriander seeds, curry powder, ground cumin, cumin seeds, chili powder, salt), cream, coriander seeds, cinnamon, cardamom seeds, cloves, nutmeg, bay leaf, pepper",
-            "allergens": "MILK",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
           {
             "name": "Marinara Sauce",
             "ingredients": "tomatoes, tomato paste, soybean oil, sugar, salt, onion, garlic, spices, citric acid, natural flavor",
@@ -4056,105 +3765,17 @@
               "halal": false
             }
           }
-        ],
-        "Stern Dining": [
-          {
-            "name": "Baked Potato Bar",
-            "ingredients": "Not listed",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Lemon Herbed Chicken",
-            "ingredients": "chicken, canola/olive oil blend, lemon juice, garlic, paprika, parsley, oregano, pepper, salt",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Mixed Greens Salad",
-            "ingredients": "mixed greens, shredded carrots, cherry tomatoes, italian dressing (soybean oil, distilled vinegar, high fructose corn syrup, corn syrup, salt, garlic, corn syrup solids, xanthan gum, lemon juice concentrate, spice, red bell pepper, paprika, fd&c yellow no.5, fd&c yellow No.6)",
-            "allergens": "SOY",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Mushroom, Chickpea & Garlic Quinoa",
-            "ingredients": "quinoa, red quinoa, chickpeas, pepper, parsley, mushrooms, onions, salt, dill, garlic, cumin seeds, olive oil, vegetable soup base [contains mushrooms, celery], thyme",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Pita Bread",
-            "ingredients": "whole wheat flour, enriched wheat flour, soybean, canola oil, sugar, salt, baking powder, yeast, blackstrap molasses, calcium propionate, sodium stearoyl lactylate, guar gum, amylase",
-            "allergens": "SOY, WHEAT",
-            "trace_allergens": "EGG, TREENUTS",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Saffron Rice",
-            "ingredients": "rice, onions, dill, saffron, canola/olive oil blend, salt",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          }
-        ],
-        "Wilbur Dining": [
-          {
-            "name": "Curry Chicken",
-            "ingredients": "chicken, curry sauce, onion, potato, tomato, lemongrass, Thai chili",
-            "allergens": "SOY",
-            "trace_allergens": "COCONUT, FISH, SHELLFISH",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          }
         ]
       },
       "partially_shared": [
         {
           "details": {
-            "name": "Garlic Rice",
-            "ingredients": "rice, garlic, canola/olive oil blend",
-            "allergens": "None",
+            "name": "Chicken Gyro with Pita *NOT HALAL*",
+            "ingredients": "gyro chicken (chicken, canola oil, garlic, paprika, oregano, lemon juice, salt), pita bread (enriched flour, soybean oil, corn syrup solids, guar gum, canola oil, salt, sesame flour, soy flour, sugar, vegetable monoglycerides, diglycerides, vegetable l cysteine, wheat enzymes, whole wheat flour, yeast)",
+            "allergens": "SESAME, SOY, WHEAT",
             "trace_allergens": "None mentioned",
             "dietary_info": {
-              "gluten_free": true,
+              "gluten_free": false,
               "vegetarian": false,
               "vegan": false,
               "halal": false
@@ -4163,44 +3784,11 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
             "Florence Moore Dining",
+            "Gerhard Casper Dining",
+            "Stern Dining",
             "Wilbur Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Grilled Chicken Station",
-            "ingredients": "chicken, bacon, brioche bun (enriched flour [wheat, malted barley], sugar, yeast, palm oil, salt, cultured wheat, vinegar, wheat gluten, natural flavors, soybean oil, guar gum, enzymes, corn flour, turmeric, paprika, dextrose, corn starch maltodextrin, dextrin, triglycerides, pea protein, dextrose, maltodextrin, modified food starch), avocado, french fries, chipotle aioli sauce (mayonnaise, chipotle pepper, garlic, lemon juice, sherry wine vinegar, red wine vinegar)",
-            "allergens": "EGG, SOY, WHEAT",
-            "trace_allergens": "COCONUT, FISH, MILK, PEANUTS, SESAME, SHELLFISH, TREENUTS",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
-            "Branner Dining",
-            "Florence Moore Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Hawaiian Roll",
-            "ingredients": "enriched flour, sugar, liquid sugar, butter, eggs, potato flour, yeast, whey, nonfat milk, soy flour, salt, degerminated yellow corn flour, wheat gluten, sodium stearoyl lactylate, datem, monocalcium phosphate, wheat flour, calcium sulfate, sodium silicoaluminate, ascorbic acid, ammonium sulfate, wheat starch, sorbitan monostearate, enzymes, microcrystalline cellulose, calcium silicate",
-            "allergens": "EGG, MILK, SOY, WHEAT",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
-            "Branner Dining",
-            "Florence Moore Dining"
           ]
         },
         {
@@ -4218,7 +3806,35 @@
           },
           "served_at": [
             "Arrillaga Family Dining Commons",
-            "Branner Dining"
+            "Branner Dining",
+            "EVGR Dining",
+            "Gerhard Casper Dining",
+            "Stern Dining",
+            "Wilbur Dining"
+          ]
+        },
+        {
+          "details": {
+            "name": "Mediterranean Bar",
+            "ingredients": "Not listed",
+            "allergens": "None",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          "served_at": [
+            "Arrillaga Family Dining Commons",
+            "Branner Dining",
+            "EVGR Dining",
+            "Florence Moore Dining",
+            "Gerhard Casper Dining",
+            "Lakeside Dining",
+            "Stern Dining",
+            "Wilbur Dining"
           ]
         },
         {
@@ -4237,6 +3853,8 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
+            "Gerhard Casper Dining",
             "Lakeside Dining",
             "Stern Dining",
             "Wilbur Dining"
@@ -4282,15 +3900,18 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
+            "Gerhard Casper Dining",
             "Lakeside Dining",
-            "Stern Dining"
+            "Stern Dining",
+            "Wilbur Dining"
           ]
         },
         {
           "details": {
-            "name": "Performance Bar",
-            "ingredients": "Seasonal Assortment of Fresh Vegetables, Salads, Beans, Whole Grains, Hard Boiled Eggs, Baked Chicken, Tofu, Hummus, Spinach",
-            "allergens": "None",
+            "name": "Pita Pocket",
+            "ingredients": "whole wheat flour, enriched wheat flour, soybean oil, canola oil, sugar, salt, baking powder, yeast, blackstrap molasses, calcium propionate, sodium stearoyl lactylate, guar gum, amylase",
+            "allergens": "SOY, WHEAT",
             "trace_allergens": "None mentioned",
             "dietary_info": {
               "gluten_free": false,
@@ -4303,46 +3924,8 @@
             "Arrillaga Family Dining Commons",
             "Branner Dining",
             "EVGR Dining",
-            "Lakeside Dining",
-            "Ricker Dining",
-            "Wilbur Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Red Curry Beef Plate",
-            "ingredients": "beef, corn starch, canola oil, olive oil, oyster sauce (sugar, soy sauce [salt, soybeans, wheat flour], corn starch, yeast extract, caramel color, natural and artificial mushroom flavor, garlic, ginger, thai red curry paste (garlic, red chilli, lemongrass, shallot, salt, galangal, shrimp paste, kaffir lime peel, pepper), brown sugar, onion, red bell pepper, french bean, bamboo shoots, anchovies, sea salt, coconut, guar gum, basil, cilantro",
-            "allergens": "COCONUT, FISH, SHELLFISH, SOY, WHEAT",
-            "trace_allergens": "EGG, MILK, PEANUTS, SESAME, TREENUTS",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
-            "Arrillaga Family Dining Commons",
-            "Branner Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Seasonal Roasted Vegetables",
-            "ingredients": "seasonal vegetables, canola/olive oil blend, salt, pepper",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
-            "Arrillaga Family Dining Commons",
-            "Branner Dining",
             "Florence Moore Dining",
+            "Gerhard Casper Dining",
             "Lakeside Dining",
             "Stern Dining",
             "Wilbur Dining"
@@ -4350,8 +3933,8 @@
         },
         {
           "details": {
-            "name": "Spicy Green Beans",
-            "ingredients": "green beans, olive oil, garlic, red pepper flakes, salt",
+            "name": "Roasted Zucchini & Carrots",
+            "ingredients": "carrot, zucchini, thyme, garlic, pepper, salt, olive oil",
             "allergens": "None",
             "trace_allergens": "None mentioned",
             "dietary_info": {
@@ -4364,45 +3947,11 @@
           "served_at": [
             "Arrillaga Family Dining Commons",
             "Branner Dining",
+            "EVGR Dining",
             "Florence Moore Dining",
-            "Wilbur Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Tandoori Naan",
-            "ingredients": "flour, milk, palm oil, sesame oil, sugar, sunflower oil, baking powder, corn starch, sodium bicarbonate, monocalcium phosphate, yeast",
-            "allergens": "MILK, SESAME, WHEAT",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
             "Gerhard Casper Dining",
-            "Ricker Dining"
-          ]
-        },
-        {
-          "details": {
-            "name": "Thai Tamarind Tofu",
-            "ingredients": "tofu, bell peppers, baby corn, coconut milk, tamari sauce, tamarind puree, chili paste, corn starch, canola/olive oil blend, agave syrup, shallots, garlic, ginger",
-            "allergens": "COCONUT, SOY",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          "served_at": [
-            "Arrillaga Family Dining Commons",
-            "Branner Dining",
-            "Florence Moore Dining",
+            "Lakeside Dining",
+            "Stern Dining",
             "Wilbur Dining"
           ]
         }
@@ -4567,8 +4116,32 @@
         ],
         "Lakeside Dining": [
           {
-            "name": "Baked Sweet Potato Wedges",
-            "ingredients": "sweet potatoes, garlic, creole spice (herb de provence, salt, cumin seeds, cayenne pepper, black pepper, paprika), salt, pepper",
+            "name": "Creamy Pesto",
+            "ingredients": "pesto sauce (basil, canola oil, parmesan cheese, olive oil, garlic, salt, lemon juice concentrate, natural flavor, xanthan gum, soy lecithin, chamomile extract, rosemary extract, white sauce (flour, butter, cream, milk powder, onion powder, white pepper, garlic, nutmeg, salt), parmesan cheese, parsley",
+            "allergens": "MILK, SOY, WHEAT",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Fried Catfish",
+            "ingredients": "catfish, cornmeal, cornstarch, eggs, creole spice mix (salt, herb de provence, cumin, cayenne pepper, pepper, paprika), canola shortening, canola/olive oil blend, salt",
+            "allergens": "EGG, FISH",
+            "trace_allergens": "COCONUT, MILK, PEANUTS, SESAME, SHELLFISH, SOY, TREENUTS, WHEAT",
+            "dietary_info": {
+              "gluten_free": false,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          {
+            "name": "Garlic Rice",
+            "ingredients": "rice, canola/olive oil blend, garlic, salt",
             "allergens": "None",
             "trace_allergens": "None mentioned",
             "dietary_info": {
@@ -4579,21 +4152,9 @@
             }
           },
           {
-            "name": "Creamed Spinach",
-            "ingredients": "spinach, butter, sour cream, nutmeg, onions, flour, milk, salt",
-            "allergens": "MILK, WHEAT",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "House Made Chow Chow",
-            "ingredients": "coleslaw, tomato, canola/olive oil blend, garlic, bell peppers, mustard seeds, turmeric, apple cider vinegar, brown sugar, salt, black pepper",
-            "allergens": "None",
+            "name": "Mashed Sweet Potatoes",
+            "ingredients": "sweet potatoes, cream, butter, cinnamon",
+            "allergens": "MILK",
             "trace_allergens": "None mentioned",
             "dietary_info": {
               "gluten_free": true,
@@ -4615,20 +4176,8 @@
             }
           },
           {
-            "name": "RSK Dirty Rice",
-            "ingredients": "rice, pea protein crumbles (pea protein isolate, canola oil, beef type flavor [yeast extract, maltodextrin, natural flavoring, salt, sunflower oil, onion powder], spices, rice flour, tomato powder, caramel colors, lemon juice concentrate, salt, onion extract, garlic extract), bell peppers, onions, celery, garlic, chili powder, bay leaf, parsley, oregano, thyme, salt, pepper",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Smoked Chicken",
-            "ingredients": "chicken, canola/olive oil blend, sugar, paprika, garlic powder, salt, pepper",
+            "name": "White Rice Pilaf",
+            "ingredients": "white rice pilaf, carrot, onion, canola/olive oil blend, salt, white pepper, bay leaf, vegetable soup base",
             "allergens": "None",
             "trace_allergens": "None mentioned",
             "dietary_info": {
@@ -4910,8 +4459,7 @@
           },
           "served_at": [
             "Arrillaga Family Dining Commons",
-            "Branner Dining",
-            "Lakeside Dining"
+            "Branner Dining"
           ]
         },
         {
@@ -4931,7 +4479,6 @@
             "Arrillaga Family Dining Commons",
             "Branner Dining",
             "Florence Moore Dining",
-            "Lakeside Dining",
             "Wilbur Dining"
           ]
         },
@@ -5015,7 +4562,6 @@
             "Branner Dining",
             "EVGR Dining",
             "Gerhard Casper Dining",
-            "Lakeside Dining",
             "Stern Dining",
             "Wilbur Dining"
           ]
@@ -5059,7 +4605,6 @@
             "Arrillaga Family Dining Commons",
             "Branner Dining",
             "Florence Moore Dining",
-            "Lakeside Dining",
             "Ricker Dining",
             "Wilbur Dining"
           ]
@@ -5211,30 +4756,6 @@
         ],
         "Lakeside Dining": [
           {
-            "name": "Baked Potato",
-            "ingredients": "potatoes, canola/olive oil blend, salt",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
-            "name": "Baked Potato Bar",
-            "ingredients": "Not listed",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": false,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
             "name": "Butter Chicken",
             "ingredients": "chicken, butter chicken sauce (coriander seed, garlic, sour cream, cumin seed, salt, chili powder, ginger, garam masala, plain greek yogurt, turmeric, canola/olive oil blend)",
             "allergens": "MILK",
@@ -5247,10 +4768,10 @@
             }
           },
           {
-            "name": "Tandoori Style Roasted Vegetables",
-            "ingredients": "sweet potatoes, yams, potatoes, brussels sprouts, cauliflower, canola/olive oil blend, coconut milk, pomegranate seeds, bombay biryani masala (coriander, salt, red chili, plum, fennel, unripe mango, cassia, musk melon, pepper, cardamom, amomum, cloves, turmeric, cumin, garlic, nutmeg), onions, brown sugar, curry powder, tandoori masala (paprika, salt, red chili, aniseed, cinnamon, papaya powder, soy protein, canola oil), chili powder, ginger, garam masala, kasoori methi",
-            "allergens": "COCONUT, MILK, SOY",
-            "trace_allergens": "EGG, PEANUTS, SESAME, TREENUTS, WHEAT",
+            "name": "Cheese Quesadilla",
+            "ingredients": "flour tortilla, cheese, salt, pepper, canola/olive oil blend",
+            "allergens": "MILK, SOY, WHEAT",
+            "trace_allergens": "COCONUT, EGG, FISH, PEANUTS, SESAME, SHELLFISH, TREENUTS",
             "dietary_info": {
               "gluten_free": false,
               "vegetarian": false,
@@ -5395,18 +4916,6 @@
             }
           },
           {
-            "name": "Spinach, Potato & Chickpea Curry",
-            "ingredients": "potatoes, spinach, chickpeas, onion, carrot, masala, canola/olive oil blend, salt, pepper, garlic, curry sauce (onions, cumin seeds, garam masala, coriander seed, curry powder, chili powder, garlic, ginger, ketchup, tomato sauce, tomato paste, tomato puree, salt, turmeric)",
-            "allergens": "None",
-            "trace_allergens": "None mentioned",
-            "dietary_info": {
-              "gluten_free": true,
-              "vegetarian": false,
-              "vegan": false,
-              "halal": false
-            }
-          },
-          {
             "name": "Turkey Burger",
             "ingredients": "white turkey, salt, spices, granulated garlic, onion powder, soy oil, natural flavorings, silicon dioxide",
             "allergens": "SOY",
@@ -5516,7 +5025,6 @@
             "Arrillaga Family Dining Commons",
             "Branner Dining",
             "Florence Moore Dining",
-            "Lakeside Dining",
             "Wilbur Dining"
           ]
         },
@@ -5685,6 +5193,24 @@
             "Florence Moore Dining",
             "Lakeside Dining",
             "Wilbur Dining"
+          ]
+        },
+        {
+          "details": {
+            "name": "Spinach, Potato & Chickpea Curry",
+            "ingredients": "potatoes, spinach, chickpeas, onion, carrot, masala, canola/olive oil blend, salt, pepper, garlic, curry sauce (onions, cumin seeds, garam masala, coriander seed, curry powder, chili powder, garlic, ginger, ketchup, tomato sauce, tomato paste, tomato puree, salt, turmeric)",
+            "allergens": "None",
+            "trace_allergens": "None mentioned",
+            "dietary_info": {
+              "gluten_free": true,
+              "vegetarian": false,
+              "vegan": false,
+              "halal": false
+            }
+          },
+          "served_at": [
+            "Lakeside Dining",
+            "Stern Dining"
           ]
         },
         {
@@ -6687,9 +6213,9 @@
             }
           },
           {
-            "name": "Plant-Forward Swedish Meatball",
-            "ingredients": "plant-forward \"meatball\" (pea protein, sunflower oil, coconut oil, vegetable, fruit juice for color, salt, spice, natural flavor, methylcellulose, maltodextrin, yeast extract, cultured dextrose, rice bran extract, dried garlic, sugar, onion powder, garlic powder, gum arabic, dried onion, dried parsley, canola oil), mushroom gravy (mushroom, onions, flour, leek, canola oil, vegetable soup base [contains carrots, celery], garlic, thyme, mushroom seasoning, pepper), parsley",
-            "allergens": "COCONUT, WHEAT",
+            "name": "Plant-forward Gumbo",
+            "ingredients": "soy-based strip (soy protein isolate, gluten, yeast extract, sugar, canola oil,salt, ancient grains flour [kamut, amaranth, millet, quinoa], pea protein, carrot fiber, onion powder, paprika, turmeric), canola/olive oil blend, onion, celery, bell peppers, okra, cajun seasoning, gumbo spice, vegetable soup base (contains celery, mushroom), nutritional yeast, soyrizo links (soy protein, soybean oil, paprika, salt, vinegar, color), chickpea flour, vegan oil spread (palm oil, soybean oil, canola oil, and/or olive oil)",
+            "allergens": "SOY, WHEAT",
             "trace_allergens": "None mentioned",
             "dietary_info": {
               "gluten_free": false,
